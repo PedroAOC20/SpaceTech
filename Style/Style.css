@@ -116,22 +116,22 @@
 .container00.container05 {
   background-image: url(../../Img/Falcon9/01.jpg);
 }
-.container00.container02 {
+.container00.container06 {
   background-image: url(../../Img/Falcon9/02.jpg);
 }
-.container00.carrosel01 {
+.container00.carrossel01 {
   background-image: url(../../Img/Falcon9/03.jpg);
 }
-.container00.carrosel02 {
+.container00.carrossel02 {
   background-image: url(../../Img/Falcon9/04.jpg);
 }
-.container00.carrosel03 {
+.container00.carrossel03 {
   background-image: url(../../Img/Falcon9/05.jpg);
 }
-.container00.carrosel04 {
+.container00.carrossel04 {
   background-image: url(../../Img/Falcon9/06.jpg);
 }
-.container00.carrosel05 {
+.container00.carrossel05 {
   background-image: url(../../Img/Falcon9/07.jpg);
 }
 .container00.container07 {
@@ -151,17 +151,17 @@
   height: 80vh;
 }
 
-.numberes {
+.numbers {
   background-color: black;
-  height: 40vh;
+  height: 30vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.numberes .titleNumb {
-  font-size: 20px;
+.numbers .titleNumb {
+  font-size: 60px;
 }
-.numberes .subTitleNumb {
+.numbers .subTitleNumb {
   font-size: 20px;
 }
 
@@ -178,11 +178,11 @@
   justify-content: left;
 }
 
-.carroselSlide img {
+.carouselSlide img {
   height: 100vh;
 }
 
-.carroselText {
+.carousselText {
   background-color: black;
 }
 
