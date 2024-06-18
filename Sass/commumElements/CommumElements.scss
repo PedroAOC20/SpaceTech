@@ -1,0 +1,75 @@
+.header{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.container00{
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.logoPc{
+    width: 240px;
+    margin-left: -10px;
+    margin-right: 20px;
+}
+
+.footer{
+    background-color: black;
+    height: 15vh;
+    font-size: 12px;
+    font-weight: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    a{
+        text-decoration: none;
+        color: white;
+
+        &:houver{
+            color: $link-hover;
+        }
+    }
+
+    .copySpace{
+        color: $copy-color;
+    }
+}
+
+#button{
+    padding: $padding-button;
+}
+
+#arrowDown{
+    display: inline-block;
+    width: 90px; 
+    margin: 10rem;
+}
+
+#navItem{
+    &:houver{
+        color: $link-hover;
+    }
+}
+
+// Media query em comum em todas as páginas.
+@media(max-width: 405px){
+    .logoPc{
+        width: 180px;
+        margin-top: 15px;
+    }
+
+    .footer{
+        font-size: 10px;
+    }
+};
+
+@media (max-width:350px){
+    .logoPc{
+        width: 150px;
+        margin-top: 15px;
+    }
+};
