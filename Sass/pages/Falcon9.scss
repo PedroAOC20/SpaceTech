@@ -3,27 +3,27 @@
         background-image: url(../../Img/Falcon9/01.jpg);
     }
 
-    &.container02{
+    &.container06{
         background-image: url(../../Img/Falcon9/02.jpg);
     }
 
-    &.carrosel01{
+    &.carrossel01{
         background-image: url(../../Img/Falcon9/03.jpg);
     }
 
-    &.carrosel02{
+    &.carrossel02{
         background-image: url(../../Img/Falcon9/04.jpg);
     }
 
-    &.carrosel03{
+    &.carrossel03{
         background-image: url(../../Img/Falcon9/05.jpg);
     }
 
-    &.carrosel04{
+    &.carrossel04{
         background-image: url(../../Img/Falcon9/06.jpg);
     }
 
-    &.carrosel05{
+    &.carrossel05{
         background-image: url(../../Img/Falcon9/07.jpg);
     }
 
@@ -45,15 +45,15 @@
     height: 80vh;
 }
 
-.numberes{
+.numbers{
     background-color: black;
-    height: 40vh;
+    height: 30vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
 
     .titleNumb{
-        font-size: 20px;
+        font-size: 60px;
     }
 
     .subTitleNumb{
@@ -74,13 +74,13 @@
     justify-content: left;
 }
 
-.carroselSlide{
+.carouselSlide{
     img{
         height: 100vh;
     }
 }
 
-.carroselText{
+.carousselText{
     background-color: black;
 }
 
