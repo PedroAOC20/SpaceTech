@@ -138,9 +138,9 @@
   background-image: url(../../Img/Falcon9/08.jpg);
 }
 
-.titleFalcon {
+.titleFalcon9 {
   font-size: 90px;
-  font-family: "Rubik", "sans-serif";
+  font-family: "Rubik", sans-serif;
   font-weight: 514;
 }
 
@@ -148,21 +148,42 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 80vh;
+  min-height: 80vh;
+}
+
+.carrosselSlide img {
+  height: 100vh;
+}
+
+.carousselText {
+  background-color: black;
 }
 
 .numbers {
   background-color: black;
-  height: 30vh;
+  height: 40vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 .numbers .titleNumb {
-  font-size: 60px;
+  font-size: 90px;
 }
 .numbers .subTitleNumb {
   font-size: 20px;
+}
+
+.containerFalcon9Desc {
+  display: flex;
+  height: 90vh;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#overViewPosition {
+  width: 500px;
+  margin-left: 13%;
+  padding-top: 15%;
 }
 
 .falcon9Desc {
@@ -171,24 +192,9 @@
   line-height: 50px;
 }
 
-.containerFalcon9Desc {
-  display: grid;
-  height: 90vh;
-  align-items: center;
-  justify-content: left;
-}
-
-.carouselSlide img {
-  height: 100vh;
-}
-
-.carousselText {
-  background-color: black;
-}
-
 .downloadDesc {
   background-color: black;
-  height: 85vh;
+  height: 55vh;
   padding-top: 240px;
 }
 .downloadDesc a {
@@ -202,12 +208,6 @@
 .downloadDesc button {
   border: 2px solid white;
   margin-right: 10px;
-}
-
-#OverViewPosition {
-  width: 500;
-  margin-left: 13%;
-  padding-top: 15%;
 }
 
 @media (max-width: 1024px) {
@@ -260,11 +260,6 @@
   .subTitleOvewView {
     font-size: 20px;
     font-weight: 300;
-  }
-}
-@media (max-width: 510px) {
-  .downloadDesc button {
-    margin: 10px 0px;
   }
 }
 
